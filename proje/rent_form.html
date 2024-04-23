@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araç Kiralama Formu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1><a href="#">Araba Kiralama</a></h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="rentForm">
+            <div class="container">
+                <h2 id="carModel">Araç Kiralama Formu</h2>
+                <form>
+                    <label for="name">Adınız:</label>
+                    <input type="text" id="name" required><br>
+                    <label for="email">E-posta Adresiniz:</label>
+                    <input type="email" id="email" required><br>
+                    <label for="phone">Telefon Numaranız:</label>
+                    <input type="tel" id="phone" required><br>
+                    <label for="start">Başlangıç Tarihi:</label>
+                    <input type="date" id="start" required><br>
+                    <label for="end">Bitiş Tarihi:</label>
+                    <input type="date" id="end" required><br>
+                    <button type="submit">Kiralama Talebini Gönder</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Araba Kiralama</p>
+            <ul>
+                <li><a href="#">Gizlilik Politikası</a></li>
+                <li><a href="#">Kullanım Şartları</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
